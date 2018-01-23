@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <declare-styleable name="EquilateralTriangleView">
+        <attr name="fb_shape" format="enum">
+            <enum name="three" value="101"/>
+            <enum name="four" value="102"/>
+            <enum name="five" value="103"/>
+        </attr>
+        <attr name="lineColor" format="color"/>
+        <attr name="back_ground" format="color"/>
+        <attr name="border_with" format="dimension"/>
+        <attr name="border_length" format="dimension"/>
+        <attr name="start_x" format="dimension"/>
+        <attr name="start_y" format="dimension"/>
+        <attr name="showBorder" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="BezierLine">
+        <attr name="line_Color" format="color"/>
+        <attr name="b_start_x" format="dimension"/>
+        <attr name="b_start_y" format="dimension"/>
+        <attr name="end_x" format="dimension"/>
+        <attr name="end_y" format="dimension"/>
+        <attr name="control_x" format="dimension"/>
+        <attr name="control_y" format="dimension"/>
+    </declare-styleable>
+</resources>

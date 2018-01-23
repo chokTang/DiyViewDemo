@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.diy.diyview.view.EquilateralTriangleView
+        android:layout_width="match_parent"
+        android:layout_height="500px"
+        app:start_x="300px"
+        app:start_y="100px"
+        app:back_ground="#B22222"
+        app:border_length="200px"
+        app:fb_shape="three"/>
+    <com.diy.diyview.view.EquilateralTriangleView
+        android:layout_width="match_parent"
+        android:layout_height="500px"
+        android:layout_marginTop="20px"
+        app:start_x="100px"
+        app:start_y="100px"
+        app:back_ground="#0000CD"
+        app:border_length="200px"
+        app:fb_shape="four"/>
+</LinearLayout>
